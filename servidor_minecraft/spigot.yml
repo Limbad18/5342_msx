@@ -17,19 +17,10 @@ messages:
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
-commands:
-  log: true
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  tab-complete: 0
-  send-namespaced: true
 settings:
+  bungeecord: false
+  save-user-cache-on-stop-only: false
+  sample-count: 12
   player-shuffle: 0
   user-cache-size: 1000
   moved-wrongly-threshold: 0.0625
@@ -38,9 +29,6 @@ settings:
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: 4
-  log-villager-deaths: true
-  log-named-deaths: true
-  bungeecord: false
   attribute:
     maxAbsorption:
       max: 2048.0
@@ -50,11 +38,21 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  save-user-cache-on-stop-only: false
-  sample-count: 12
+  log-villager-deaths: true
+  log-named-deaths: true
   debug: false
-players:
-  disable-saving: false
+commands:
+  tab-complete: 0
+  send-namespaced: true
+  log: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
 advancements:
   disable-saving: false
   disabled:
@@ -175,6 +173,8 @@ world-settings:
       tile: 50
       entity: 50
     verbose: false
+players:
+  disable-saving: false
 config-version: 12
 stats:
   disable-saving: false
