@@ -550,3 +550,39 @@
 [09:49:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7560ms or 151 ticks behind
 [09:49:43] [Server thread/INFO]: Ygrad issued server command: /mvtp Builds
 [09:50:00] [Server thread/INFO]: Ygrad issued server command: /mvtp ll:world
+[09:50:28] [Server thread/INFO]: Ygrad issued server command: /mvtp ll:world
+[09:50:32] [Server thread/INFO]: Ygrad issued server command: /tp -3744 ~ 928
+[09:50:32] [Server thread/INFO]: [Ygrad: Teleported Ygrad to -3743.500000, 77.000000, 928.500000]
+[09:50:35] [Server thread/INFO]: [Ygrad: Set own game mode to Spectator Mode]
+[09:50:54] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
+[09:51:00] [Server thread/INFO]: Ygrad issued server command: /plugins
+[09:51:12] [Server thread/INFO]: Ygrad issued server command: /survivalenhanced:menu
+[09:51:19] [Server thread/INFO]: Ygrad issued server command: /survivalenhanced:survivalenhanced
+[09:51:19] [Server thread/INFO]: [SurvivalEnhanced] onCommand
+[09:51:19] [Server thread/INFO]: [SurvivalEnhanced] sender instanceof Player
+[09:51:19] [Server thread/INFO]: [SurvivalEnhanced] player has permission
+[09:51:53] [Server thread/INFO]: Ygrad issued server command: /survivalenhanced:survivalenhanced
+[09:51:53] [Server thread/INFO]: [SurvivalEnhanced] onCommand
+[09:51:53] [Server thread/INFO]: [SurvivalEnhanced] sender instanceof Player
+[09:51:53] [Server thread/INFO]: [SurvivalEnhanced] player has permission
+[09:52:05] [Server thread/INFO]: Ygrad issued server command: /survivalenhanced:survivalenhanced
+[09:52:05] [Server thread/INFO]: [SurvivalEnhanced] onCommand
+[09:52:05] [Server thread/INFO]: [SurvivalEnhanced] sender instanceof Player
+[09:52:05] [Server thread/INFO]: [SurvivalEnhanced] player has permission
+[09:52:29] [Server thread/INFO]: Ygrad issued server command: /waypoint list
+[09:52:34] [Server thread/INFO]: [Ygrad: Set own game mode to Survival Mode]
+[09:52:42] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
+[09:52:47] [Server thread/INFO]: Ygrad issued server command: /survivalenhanced:survivalenhanced
+[09:52:47] [Server thread/INFO]: [SurvivalEnhanced] onCommand
+[09:52:47] [Server thread/INFO]: [SurvivalEnhanced] sender instanceof Player
+[09:52:47] [Server thread/INFO]: [SurvivalEnhanced] player has permission
+[09:53:01] [Server thread/INFO]: Ygrad lost connection: Disconnected
+[09:53:01] [Server thread/INFO]: Ygrad left the game
+[09:53:18] [User Authenticator #3/INFO]: UUID of player Ygrad is 4c2ffda1-f370-49af-8353-fde1016f204f
+[09:53:19] [Server thread/INFO]: Ygrad joined the game
+[09:53:19] [Server thread/INFO]: Ygrad[/127.162.152.220:44121] logged in with entity id 54777 at ([world]-3727.2254436893586, 64.5625, 784.3511808525146)
+[09:53:25] [Server thread/INFO]: Ygrad issued server command: /worldedit
+[09:53:28] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
+[09:53:34] [Server thread/INFO]: Ygrad issued server command: //wand
+[09:53:39] [Server thread/INFO]: Ygrad lost connection: Disconnected
+[09:53:39] [Server thread/INFO]: Ygrad left the game
