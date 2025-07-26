@@ -238,3 +238,26 @@
 [08:44:16] [Server thread/INFO]: Ygrad has made the advancement [We Need to Go Deeper]
 [08:47:29] [Server thread/INFO]: CBBox has made the advancement [We Need to Go Deeper]
 [08:49:25] [Async Chat Thread - #3/INFO]: <CBBox> -429 77
+[08:50:04] [Server thread/INFO]: CBBox fell from a high place
+[08:50:09] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[08:50:09] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[08:50:18] [Server thread/INFO]: CBBox fell from a high place
+[08:50:21] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[08:50:21] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[08:50:23] [Server thread/INFO]: CBBox fell from a high place
+[08:50:26] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[08:50:26] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[08:50:44] [Server thread/INFO]: CBBox fell from a high place
+[08:50:48] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[08:50:48] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[08:54:57] [Server thread/INFO]: CBBox has made the advancement [Ice Bucket Challenge]
+[08:55:12] [Server thread/INFO]: Ygrad issued server command: /tp CBBox
+[08:55:12] [Server thread/INFO]: [Ygrad: Teleported Ygrad to CBBox]
+[08:55:29] [Server thread/INFO]: CBBox has made the advancement [Who is Cutting Onions?]
+[08:58:36] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
+[08:58:46] [Server thread/INFO]: [Ygrad: Set own game mode to Survival Mode]
+[08:58:50] [Server thread/INFO]: Ygrad issued server command: /tp CBBox
+[08:58:50] [Server thread/INFO]: [Ygrad: Teleported Ygrad to CBBox]
+[08:58:55] [Server thread/INFO]: Ygrad issued server command: /tp CBBox
+[08:58:55] [Server thread/INFO]: [Ygrad: Teleported Ygrad to CBBox]
+[08:59:09] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
