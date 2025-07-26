@@ -198,3 +198,37 @@
 [08:18:40] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
 [08:18:40] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
 [08:18:40] [Server thread/INFO]: [Ygrad: Set own game mode to Survival Mode]
+[08:19:22] [Server thread/INFO]: Villager Villager['Villager'/34269, uuid='c3e647c1-1b99-4c4f-8954-394bf828c37a', l='ServerLevel[world]', x=3580.75, y=70.00, z=-2294.59, cpos=[223, -144], tl=1818, v=true] died, message: 'Villager was slain by Zombie'
+[08:20:25] [Server thread/INFO]: Ygrad was slain by CBBox
+[08:21:02] [Server thread/INFO]: Ygrad issued server command: /tp CBBox
+[08:21:02] [Server thread/INFO]: [Ygrad: Teleported Ygrad to CBBox]
+[08:21:26] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
+[08:21:36] [Server thread/INFO]: Ygrad issued server command: /tp CBBox
+[08:21:36] [Server thread/INFO]: [Ygrad: Teleported Ygrad to CBBox]
+[08:21:40] [Server thread/INFO]: Ygrad issued server command: /tp -3744 ~ 928
+[08:21:40] [Server thread/INFO]: [Ygrad: Teleported Ygrad to -3743.500000, 64.000000, 928.500000]
+[08:21:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4457ms or 89 ticks behind
+[08:22:01] [Server thread/INFO]: [Ygrad: Set own game mode to Adventure Mode]
+[08:22:03] [Server thread/INFO]: [Ygrad: Set own game mode to Spectator Mode]
+[08:22:30] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
+[08:24:47] [Server thread/INFO]: Ygrad issued server command: /waypoint
+[08:24:51] [Server thread/INFO]: Ygrad issued server command: /waypoint list
+[08:25:10] [Server thread/INFO]: Ygrad issued server command: /waypoint modify Ygrad color aqua
+[08:25:52] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[08:25:52] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[08:26:05] [Server thread/INFO]: CBBox has made the advancement [Best Friends Forever]
+[08:26:09] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[08:26:09] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[08:26:58] [Server thread/INFO]: Ygrad issued server command: /tp -3744 ~ 928
+[08:26:58] [Server thread/INFO]: [Ygrad: Teleported Ygrad to -3743.500000, 95.000000, 928.500000]
+[08:27:07] [Server thread/INFO]: Ygrad issued server command: /tp 3552 ~ -2336
+[08:27:07] [Server thread/INFO]: [Ygrad: Teleported Ygrad to 3552.500000, 104.307925, -2335.500000]
+[08:27:16] [Server thread/INFO]: [Ygrad: Set own game mode to Survival Mode]
+[08:28:22] [Server thread/INFO]: Ygrad issued server command: /tp -3744 ~ 928
+[08:28:22] [Server thread/INFO]: [Ygrad: Teleported Ygrad to -3743.500000, 64.000000, 928.500000]
+[08:28:24] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
+[08:28:26] [Server thread/INFO]: [Ygrad: Set own game mode to Spectator Mode]
+[08:28:59] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
+[08:29:03] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[08:29:03] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[08:29:09] [Server thread/INFO]: [Ygrad: Set own game mode to Survival Mode]
