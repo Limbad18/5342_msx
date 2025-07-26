@@ -264,3 +264,9 @@
 [09:05:35] [Server thread/INFO]: Ygrad issued server command: /tp CBBox
 [09:05:35] [Server thread/INFO]: [Ygrad: Teleported Ygrad to CBBox]
 [09:06:15] [Server thread/INFO]: Ygrad was slain by CBBox
+[09:12:51] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[09:12:51] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[09:15:27] [Server thread/INFO]: Ygrad issued server command: /tp CBBox
+[09:15:27] [Server thread/INFO]: [Ygrad: Teleported Ygrad to CBBox]
+[09:19:19] [Server thread/INFO]: Ygrad issued server command: /tp CBBox
+[09:19:19] [Server thread/INFO]: [Ygrad: Teleported Ygrad to CBBox]
