@@ -189,3 +189,12 @@
 [07:49:05] [Server thread/INFO]: Ygrad was blown up by Creeper
 [07:52:02] [Server thread/INFO]: Ygrad issued server command: /tp CBBox
 [07:52:02] [Server thread/INFO]: [Ygrad: Teleported Ygrad to CBBox]
+[08:03:58] [Server thread/INFO]: Ygrad issued server command: /seed
+[08:15:20] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
+[08:17:11] [Server thread/INFO]: Ygrad issued server command: /tp 3552 ~ -2336
+[08:17:11] [Server thread/INFO]: [Ygrad: Teleported Ygrad to 3552.500000, 117.937500, -2335.500000]
+[08:17:14] [Server thread/WARN]: CBBox moved too quickly! 12.879109144549602,-2.0,1.3076961069375557
+[08:17:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3550ms or 71 ticks behind
+[08:18:40] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[08:18:40] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[08:18:40] [Server thread/INFO]: [Ygrad: Set own game mode to Survival Mode]
