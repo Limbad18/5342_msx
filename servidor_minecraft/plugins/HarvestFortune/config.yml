@@ -1,0 +1,157 @@
+global_permission: harvestfortune.use
+right_click_harvest: true
+
+enabled_crops:
+  WHEAT:
+    base_drop: 1
+    fortune_multiplier: 1.0
+    formula: linear
+    max_drop: 8
+    allowed_tools:
+      - WOODEN_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLDEN_HOE
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+      
+  CARROTS:
+    base_drop: 1
+    fortune_multiplier: 1.0
+    formula: random
+    max_drop: 8
+    allowed_tools:
+      - WOODEN_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLDEN_HOE
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+
+  POTATOES:
+    base_drop: 1
+    fortune_multiplier: 1.0
+    formula: linear
+    max_drop: 8
+    allowed_tools:
+      - WOODEN_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLDEN_HOE
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+
+  BEETROOTS:
+    base_drop: 1
+    fortune_multiplier: 1.0
+    formula: fixed
+    max_drop: 4
+    allowed_tools:
+      - WOODEN_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLDEN_HOE
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+
+  NETHER_WART:
+    base_drop: 2
+    fortune_multiplier: 1.5
+    formula: random
+    max_drop: 12
+    allowed_tools:
+      - WOODEN_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLDEN_HOE
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+
+  COCOA:
+    base_drop: 2
+    fortune_multiplier: 1.0
+    formula: linear
+    max_drop: 6
+    allowed_tools:
+      - WOODEN_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLDEN_HOE
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+
+  SWEET_BERRY_BUSH:
+    base_drop: 2
+    fortune_multiplier: 1.0
+    formula: random
+    max_drop: 6
+    allowed_tools:
+      - WOODEN_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLDEN_HOE
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+
+  GLOW_BERRIES:
+    base_drop: 2
+    fortune_multiplier: 1.0
+    formula: random
+    max_drop: 6
+    allowed_tools:
+      - WOODEN_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLDEN_HOE
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+
+  PITCHER_CROP:
+    base_drop: 1
+    fortune_multiplier: 1.0
+    formula: fixed
+    max_drop: 2
+    allowed_tools:
+      - WOODEN_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLDEN_HOE
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+
+  TORCHFLOWER_CROP:
+    base_drop: 1
+    fortune_multiplier: 1.0
+    formula: fixed
+    max_drop: 2
+    allowed_tools:
+      - WOODEN_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLDEN_HOE
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+
+  MELON:
+    base_drop: 3
+    fortune_multiplier: 2.0
+    formula: random
+    allowed_tools:
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+      - DIAMOND_AXE
+      - NETHERITE_AXE
+      - HARVEST_FORTUNE_TOOL
+    max_drop: 9
+
+  PUMPKIN:
+    base_drop: 1
+    fortune_multiplier: 0.0
+    formula: fixed
+    allowed_tools:
+      - DIAMOND_HOE
+      - NETHERITE_HOE
+      - DIAMOND_AXE
+      - NETHERITE_AXE
+      - HARVEST_FORTUNE_TOOL
+    max_drop: 1

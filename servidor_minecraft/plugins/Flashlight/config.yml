@@ -1,0 +1,80 @@
+# Flashlight Plugin Configuration
+# Dynamic lighting for held items
+
+# General settings
+enabled: true
+update-interval: 5  # How often to update lights (in ticks, 20 ticks = 1 second)
+max-light-distance: 50  # Maximum distance for light effects (blocks)
+require-permission: false  # Whether players need flashlight.use permission
+
+# Broadcast settings
+broadcast:
+  enabled: false  # Broadcast admin actions
+
+# Light levels for different items (0-15, 0 = no light)
+light-levels:
+  # Torches and lanterns
+  torch: 14
+  soul_torch: 10
+  lantern: 15
+  soul_lantern: 10
+  
+  # Glowstone and related
+  glowstone: 15
+  glowstone_dust: 8
+  glow_ink_sac: 6
+  
+  # Sea-related light sources
+  sea_lantern: 15
+  prismarine_crystals: 8
+  
+  # Redstone items
+  redstone_torch: 7
+  redstone: 3
+  redstone_block: 5
+  
+  # Fire and lava
+  fire_charge: 10
+  lava_bucket: 15
+  magma_cream: 6
+  
+  # End-related
+  end_rod: 14
+  
+  # Candles
+  candle: 3
+  white_candle: 3
+  orange_candle: 3
+  magenta_candle: 3
+  light_blue_candle: 3
+  yellow_candle: 3
+  lime_candle: 3
+  pink_candle: 3
+  gray_candle: 3
+  light_gray_candle: 3
+  cyan_candle: 3
+  purple_candle: 3
+  blue_candle: 3
+  brown_candle: 3
+  green_candle: 3
+  red_candle: 3
+  black_candle: 3
+  
+  # Other light sources
+  jack_o_lantern: 15
+  beacon: 15
+  shroomlight: 15
+  
+  # Ores that might glow
+  diamond: 4
+  emerald: 3
+  
+  # Nether items
+  blaze_rod: 12
+  blaze_powder: 8
+
+# Plugin messages
+messages:
+  plugin-enabled: "&6[Flashlight] &aDynamic lighting is now active!"
+  no-permission: "&cYou don't have permission to use this command."
+  unknown-command: "&cUnknown subcommand. Use /flashlight help for available commands."
