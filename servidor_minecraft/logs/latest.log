@@ -1,258 +1,362 @@
-[21:15:23] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[21:15:23] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[21:15:23] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:15:26] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/Guilds-3.5.7.1.jar'...
-[21:15:26] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/AxGraves-1.22.3.jar'...
-[21:15:26] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/EggEmAll2-2.0.5.jar'...
-[21:15:26] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/HarvestFortune-1.1.1.jar'...
-[21:15:27] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/HarvestFortune-1.1.1.jar' in 1399ms.
-[21:15:27] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/Flashlight-1.0.0.jar'...
-[21:15:28] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Flashlight-1.0.0.jar' in 210ms.
-[21:15:28] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/GWarp.jar'...
-[21:15:28] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GWarp.jar' in 414ms.
-[21:15:28] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/superdispensers-1.1.jar'...
-[21:15:28] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/superdispensers-1.1.jar' in 173ms.
-[21:15:28] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/armorstandeditor-1.21.7-49.jar'...
-[21:15:29] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/armorstandeditor-1.21.7-49.jar' in 539ms.
-[21:15:29] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/Tweakin-9.0.1.jar'...
-[21:15:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/EggEmAll2-2.0.5.jar' in 3913ms.
-[21:15:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/OfflineGrowthPro-2.0.4.jar'...
-[21:15:30] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Tweakin-9.0.1.jar' in 1660ms.
-[21:15:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/OfflineGrowthPro-2.0.4.jar' in 544ms.
-[21:15:31] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AxGraves-1.22.3.jar' in 5226ms.
-[21:15:31] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Guilds-3.5.7.1.jar' in 5321ms.
-[21:15:32] [ServerMain/INFO]: [FileProviderSource] The spark plugin will not be loaded as this server bundles the spark profiler.
-[21:15:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 16 plugins
-[21:15:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (16):
- - ArmorStandEditor (1.21.7-49), AxGraves (1.22.3), EggEmAll2 (2.0.5), Flashlight (1.0.0), GWarp ([2.13.0.2]), Guilds (3.5.7.1), HarvestFortune (1.1.1), Multiverse-Core (5.1.2), Multiverse-Inventories (5.1.1), NBTAPI (2.15.1), OfflineGrowthPro (2.0.4), SuperDispensersPlugin (1.1), SupremeTags (2.0.14), SurvivalEnhanced (1.0.1), Tweakin (9.0.0), WorldEdit (7.3.16+cbf4bd5)
-[21:15:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:15:43] [ServerMain/INFO]: Loaded 1407 recipes
-[21:15:43] [ServerMain/INFO]: Loaded 1520 advancements
-[21:15:43] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[21:15:44] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 666.5ms
-[21:15:44] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[21:15:44] [Server thread/INFO]: Loading properties
-[21:15:44] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[21:15:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:15:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:15:45] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:15:46] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[21:15:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[21:15:46] [Server thread/INFO]: Default game type: SURVIVAL
-[21:15:46] [Server thread/INFO]: Generating keypair
-[21:15:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:15:46] [Server thread/INFO]: Using epoll channel type
-[21:15:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:15:46] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[21:15:51] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.1.2
-[21:15:51] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.15.1
-[21:15:51] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.8! Trying to find NMS support
-[21:15:51] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(1.21.8-R0.1-SNAPSHOT) is not supported by this NBT-API Version(2.15.1) located in NBTAPI. The NBT-API will try to work as good as it can! Some functions may not work!
-[21:15:51] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
-[21:15:51] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
-[21:15:51] [Thread-6/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
-[21:15:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@731db2ad]
-[21:15:52] [Server thread/INFO]: [OfflineGrowthPro] Loading server plugin OfflineGrowthPro v2.0.4
-[21:15:52] [Server thread/INFO]: [Tweakin] Loading server plugin Tweakin v9.0.0
-[21:15:52] [Server thread/INFO]: [SurvivalEnhanced] Loading server plugin SurvivalEnhanced v1.0.1
-[21:15:52] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.1
-[21:15:52] [Server thread/INFO]: [SupremeTags] Loading server plugin SupremeTags v2.0.14
-[21:15:52] [Server thread/INFO]: [ArmorStandEditor] Loading server plugin ArmorStandEditor v1.21.7-49
-[21:15:52] [Server thread/INFO]: [SuperDispensersPlugin] Loading server plugin SuperDispensersPlugin v1.1
-[21:15:52] [Server thread/INFO]: [GWarp] Loading server plugin GWarp v[2.13.0.2]
-[21:15:52] [Server thread/INFO]: [Flashlight] Loading server plugin Flashlight v1.0.0
-[21:15:52] [Server thread/INFO]: [HarvestFortune] Loading server plugin HarvestFortune v1.1.1
-[21:15:52] [Server thread/INFO]: [EggEmAll2] Loading server plugin EggEmAll2 v2.0.5
-[21:15:52] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.22.3
-[21:15:52] [Server thread/INFO]: [Guilds] Loading server plugin Guilds v3.5.7.1
-[21:15:52] [Server thread/INFO]: [Guilds] Loading Libraries...
-[21:15:52] [Server thread/INFO]: [Guilds] Note: This might take a few minutes on first run. Kindly ensure internet connectivity.
-[21:15:58] [Server thread/INFO]: [Guilds] Loaded libraries in 5.489 seconds
-[21:15:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:15:58] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
-[21:15:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:15:58] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:15:58] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
-[21:16:01] [Server thread/INFO]: Preparing level "world"
-[21:16:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:16:03] [Server thread/INFO]: Preparing spawn area: 0%
-[21:16:03] [Server thread/INFO]: Preparing spawn area: 0%
-[21:16:04] [Server thread/INFO]: Preparing spawn area: 2%
-[21:16:05] [Server thread/INFO]: Preparing spawn area: 61%
-[21:16:05] [Server thread/INFO]: Preparing spawn area: 61%
-[21:16:05] [Server thread/INFO]: Time elapsed: 2188 ms
-[21:16:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:16:05] [Server thread/INFO]: Preparing spawn area: 0%
-[21:16:05] [Server thread/INFO]: Preparing spawn area: 89%
-[21:16:05] [Server thread/INFO]: Time elapsed: 571 ms
-[21:16:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:16:05] [Server thread/INFO]: Preparing spawn area: 0%
-[21:16:05] [Server thread/INFO]: Time elapsed: 268 ms
-[21:16:05] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.1.2
-[21:16:07] [Server thread/INFO]: Preparing start region for dimension minecraft:builds
-[21:16:07] [Server thread/INFO]: Preparing spawn area: 0%
-[21:16:08] [Server thread/INFO]: Preparing spawn area: 16%
-[21:16:08] [Server thread/INFO]: Time elapsed: 720 ms
-[21:16:09] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[21:16:09] [Server thread/INFO]: [Multiverse-Core] Version 5.1.2 (API v5.1) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[21:16:09] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[21:16:09] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.15.1
-[21:16:09] [Server thread/INFO]: [NBTAPI] Checking bindings...
-[21:16:09] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
-[21:16:09] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
-[21:16:09] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
-[21:16:13] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
-[21:16:13] [Server thread/INFO]: [OfflineGrowthPro] Enabling OfflineGrowthPro v2.0.4
-[21:16:13] [Server thread/ERROR]: Error occurred while enabling OfflineGrowthPro v2.0.4 (Is it up to date?)
-java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.CROPS
-	at java.base/java.lang.Enum.valueOf(Enum.java:293) ~[?:?]
-	at org.bukkit.Material.valueOf(Material.java:144) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
-	at OfflineGrowthPro-2.0.4.jar/g.p.N.a(Unknown Source) ~[OfflineGrowthPro-2.0.4.jar:?]
-	at OfflineGrowthPro-2.0.4.jar/g.p.t.a(Unknown Source) ~[OfflineGrowthPro-2.0.4.jar:?]
-	at OfflineGrowthPro-2.0.4.jar/es.yellowzaki.offlinegrowth.OfflineGrowth.onEnable(Unknown Source) ~[OfflineGrowthPro-2.0.4.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[21:16:13] [Server thread/INFO]: [OfflineGrowthPro] Disabling OfflineGrowthPro v2.0.4
-[21:16:13] [Server thread/ERROR]: Error occurred while disabling OfflineGrowthPro v2.0.4
-java.lang.NullPointerException: Cannot invoke "g.p.s.c()" because "this.a" is null
-	at OfflineGrowthPro-2.0.4.jar/es.yellowzaki.offlinegrowth.OfflineGrowth.onDisable(Unknown Source) ~[OfflineGrowthPro-2.0.4.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[21:16:13] [Server thread/INFO]: [Tweakin] Enabling Tweakin v9.0.0
-[21:16:13] [Server thread/INFO]: [Tweakin] Running papermc..
-[21:16:13] [Server thread/INFO]: [Tweakin] [PriLib] Running 1.21.8 minecraft version
-[21:16:13] [Server thread/INFO]: [Tweakin] [ACF] Enabled Asynchronous Tab Completion Support!
-[21:16:13] [Server thread/INFO]: [Tweakin] Loading tweakin...
-[21:16:13] [Server thread/ERROR]: [Tweakin] Not running ProtocolLib, ignoring boss-spawn-sounds, better-sign-edit, reach-around, jumpy-boats...
-[21:16:13] [Server thread/INFO]: -----------Tweakin------------
-[21:16:13] [Server thread/INFO]: Thank you for installing Tweakin!!
-[21:16:13] [Server thread/INFO]: Tweakin is installed on server for the first time..
-[21:16:13] [Server thread/INFO]: All tweaks are disabled by default, they can be enabled by using /tweakin toggle ingame or /tweakin toggle [tweak-name] in console
-[21:16:13] [Server thread/INFO]: ------------------------------
-[21:16:14] [Server thread/INFO]: [Tweakin] Registered 1 tweaks successfully
-[21:16:14] [Server thread/INFO]: [Tweakin] Registering permissions
-[21:16:14] [Server thread/INFO]: [Tweakin] Registered 66 permissions
-[21:16:14] [Server thread/INFO]: [Tweakin] Enabling bstats...
-[21:16:14] [Server thread/INFO]: [Tweakin] Tweakin loaded successfully
-[21:16:14] [Server thread/INFO]: [SurvivalEnhanced] Enabling SurvivalEnhanced v1.0.1
-[21:16:14] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.1.1
-[21:16:15] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[21:16:15] [Server thread/INFO]: [Multiverse-Inventories] Version 5.1.1 (API v5.1) Enabled - By dumptruckman and benwoo1110
-[21:16:15] [Server thread/INFO]: [SupremeTags] Enabling SupremeTags v2.0.14
-[21:16:15] [Server thread/INFO]: 
-[21:16:15] [Server thread/INFO]:   ____  _   _ ____  ____  _____ __  __ _____ _____  _    ____ ____  
-[21:16:15] [Server thread/INFO]:  / ___|| | | |  _ \|  _ \| ____|  \/  | ____|_   _|/ \  / ___/ ___| 
-[21:16:15] [Server thread/INFO]:  \___ \| | | | |_) | |_) |  _| | |\/| |  _|   | | / _ \| |  _\___ \ 
-[21:16:15] [Server thread/INFO]:   ___) | |_| |  __/|  _ <| |___| |  | | |___  | |/ ___ \ |_| |___) |
-[21:16:15] [Server thread/INFO]:  |____/ \___/|_|   |_| \_\_____|_|  |_|_____| |_/_/   \_\____|____/ 
-[21:16:15] [Server thread/INFO]:  Allow players to show off their supreme tags!
-[21:16:15] [Server thread/INFO]: 
-[21:16:15] [Server thread/INFO]: > Version: 2.0.14
-[21:16:15] [Server thread/INFO]: > Author: DevScape
-[21:16:15] [Server thread/INFO]: > NBTAPI: Found!
-[21:16:15] [Server thread/INFO]: > Vault: Not Found!
-[21:16:15] [Server thread/INFO]: > Database: H2!
-[21:16:15] [Server thread/INFO]: > Plugin up to date!
-[21:16:16] [Server thread/WARN]: ProtocolLib not found. Packet listeners disabled.
-[21:16:16] [Server thread/INFO]: > PlayerPoints: Not Found!
-[21:16:16] [Server thread/INFO]: > CoinsEngine: Not Found!
-[21:16:16] [Server thread/INFO]: §c> PlaceholderAPI: Not Found!
-[21:16:16] [Server thread/INFO]: [TAGS] Loaded 2 tag(s) successfully.
-[21:16:16] [Server thread/INFO]: [ArmorStandEditor] Enabling ArmorStandEditor v1.21.7-49
-[21:16:16] [Server thread/INFO]: [ArmorStandEditor] ======= ArmorStandEditor =======
-[21:16:16] [Server thread/INFO]: [ArmorStandEditor] Plugin Version: v1.21.7-49
-[21:16:16] [Server thread/INFO]: [ArmorStandEditor] Minecraft Version: 1.21.8
-[21:16:16] [Server thread/INFO]: [ArmorStandEditor] ArmorStandEditor is compatible with this version of Minecraft. Loading continuing.
-[21:16:16] [Server thread/INFO]: [ArmorStandEditor] SpigotMC: true
-[21:16:16] [Server thread/INFO]: Registering Scoreboards required for Glowing Effects
-[21:16:16] [Server thread/INFO]: [ArmorStandEditor] ================================
-[21:16:16] [Server thread/INFO]: [SuperDispensersPlugin] Enabling SuperDispensersPlugin v1.1
-[21:16:16] [Server thread/INFO]: [SuperDispensersPlugin] Registering event handlers for Super Dispensers.
-[21:16:16] [Server thread/INFO]: [GWarp] Enabling GWarp v[2.13.0.2]
-[21:16:17] [Server thread/INFO]: [GWarp] The Plugin was successfully enabled.
-[21:16:17] [Server thread/INFO]: [Flashlight] Enabling Flashlight v1.0.0
-[21:16:17] [Server thread/INFO]: [Flashlight] Flashlight plugin has been enabled!
-[21:16:17] [Server thread/INFO]: [HarvestFortune] Enabling HarvestFortune v1.1.1
-[21:16:17] [Server thread/INFO]: [HarvestFortune] Loaded crop configs: [NETHER_WART, PITCHER_CROP, CARROTS, SWEET_BERRY_BUSH, TORCHFLOWER_CROP, POTATOES, PUMPKIN, GLOW_BERRIES, WHEAT, BEETROOTS, COCOA, MELON]
-[21:16:17] [Server thread/INFO]: [HarvestFortune] HarvestFortune enabled!
-[21:16:17] [Server thread/INFO]: [EggEmAll2] Enabling EggEmAll2 v2.0.5
-[21:16:18] [Server thread/INFO]: ===================== EGG EM ALL =====================
-[21:16:18] [Server thread/INFO]: Catchable Entities: 75
-[21:16:18] [Server thread/INFO]: Blacklisted Entities: 10
-[21:16:18] [Server thread/INFO]: Blacklisted Worlds: 1
-[21:16:18] [Server thread/INFO]: ======================================================
-[21:16:18] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.22.3
-[21:16:20] [Server thread/INFO]: [Guilds] Enabling Guilds v3.5.7.1
-[21:16:20] [Server thread/INFO]:   ________ 
-[21:16:20] [Server thread/INFO]:  /  _____/ 
-[21:16:20] [Server thread/INFO]: /   \  ___   Guilds v3.5.7.1
-[21:16:20] [Server thread/INFO]: \    \_\  \  Server Version: 1.21.8-6-782ce95 (MC: 1.21.8)
-[21:16:20] [Server thread/INFO]:  \______  /
-[21:16:20] [Server thread/INFO]:         \/ 
-[21:16:20] [Server thread/WARN]: [Guilds] It looks like you don't have Vault on your server! Stopping plugin..
-[21:16:20] [Server thread/INFO]: [Guilds] Disabling Guilds v3.5.7.1
-[21:16:21] [Server thread/INFO]: [spark] Starting background profiler...
-[21:16:22] [Server thread/INFO]: Done preparing level "world" (20.793s)
-[21:16:22] [Server thread/INFO]: Running delayed init tasks
-[21:16:22] [Server thread/INFO]: [Multiverse-Inventories] First run!
-[21:16:22] [Server thread/INFO]: Checking for conflicts in groups...
-[21:16:22] [Server thread/INFO]: No group conflicts found!
-[21:16:22] [Server thread/INFO]: Done (60.930s)! For help, type "help"
-[21:16:22] [Craft Scheduler Thread - 5 - EggEmAll2/INFO]: [EggEmAll2] You are running the latest release.
-[21:18:30] [User Authenticator #0/INFO]: UUID of player Ygrad is 4c2ffda1-f370-49af-8353-fde1016f204f
-[21:18:32] [Server thread/INFO]: Ygrad joined the game
-[21:18:32] [Server thread/INFO]: Ygrad[/127.162.152.220:50749] logged in with entity id 124 at ([world]-3725.300000011921, 66.11650136792812, 782.3000000119209)
-[21:18:42] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
-[21:18:49] [Server thread/INFO]: Ygrad issued server command: /tweakin
-[21:18:55] [Server thread/INFO]: Ygrad issued server command: /tweakin tweak-list
-[21:19:16] [Server thread/INFO]: Ygrad issued server command: /tweakin toggle
-[21:27:47] [Server thread/INFO]: [Tweakin] Reloading tweakin...
-[21:27:47] [Server thread/INFO]: [Tweakin] Loading Poses...
-[21:27:47] [Server thread/INFO]: [Tweakin] Loaded 22 armor stand poses.
-[21:27:47] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:27:53] [Server thread/INFO]: [Tweakin] Registered 196 recipes from mini-blocks tweak
-[21:27:53] [Server thread/INFO]: [Tweakin] Generated 201 mob heads..
-[21:27:53] [Server thread/INFO]: [Tweakin] Registered 25 tweaks successfully
-[21:27:53] [Server thread/INFO]: Ygrad issued server command: /tweakin
-[21:27:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6398ms or 127 ticks behind
-[21:28:00] [Server thread/INFO]: Ygrad issued server command: /tweakin:tw
-[21:28:38] [Server thread/INFO]: Ygrad issued server command: /tweakin help
-[21:28:47] [Server thread/INFO]: Ygrad issued server command: /plugins
-[21:29:02] [Server thread/INFO]: Ygrad issued server command: /flashlight toggle
-[21:29:04] [Server thread/INFO]: Ygrad issued server command: /flashlight toggle
-[21:29:50] [Async Chat Thread - #2/INFO]: <Ygrad> Hola
-[21:29:53] [Server thread/INFO]: Ygrad issued server command: /version OfflineGrowthPro
-[21:30:56] [Server thread/INFO]: Ygrad has made the advancement [A Seedy Place]
-[21:31:07] [Server thread/INFO]: [Ygrad: Set own game mode to Survival Mode]
-[21:31:18] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
-[21:31:23] [Server thread/INFO]: [Ygrad: Set own game mode to Survival Mode]
-[21:31:58] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
-[21:32:08] [Server thread/INFO]: Ygrad issued server command: /plugins
-[21:33:29] [Server thread/INFO]: Ygrad issued server command: /version Guilds
-[21:35:22] [Server thread/INFO]: Ygrad issued server command: /survivalenhanced
-[21:35:22] [Server thread/INFO]: [SurvivalEnhanced] onCommand
-[21:35:22] [Server thread/INFO]: [SurvivalEnhanced] sender instanceof Player
-[21:35:22] [Server thread/INFO]: [SurvivalEnhanced] player has permission
+[22:35:53] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[22:35:53] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[22:35:53] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:35:54] [ServerMain/INFO]: [FileProviderSource] The spark plugin will not be loaded as this server bundles the spark profiler.
+[22:35:56] [ServerMain/INFO]: [PluginInitializerManager] Initialized 24 plugins
+[22:35:56] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - LiteEco (1.6.1-SNAPSHOT)
+[22:35:56] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (23):
+ - ArmorStandEditor (1.21.7-49), AxGraves (1.22.3), EggEmAll2 (2.0.5), Flashlight (1.0.0), GWarp ([2.13.0.2]), Guilds (3.5.7.1), HarvestFortune (1.1.1), ItemEdit (3.7.4), Multiverse-Core (5.1.2), Multiverse-Inventories (5.1.1), NBTAPI (2.15.1), OfflineGrowth (2.0.5), PlaceholderAPI (2.11.6), ProtocolLib (5.4.0-SNAPSHOT-753), RealPermissions (0.4.3), SuperDispensersPlugin (1.1), SupremeTags (2.0.14), SurvivalEnhanced (1.0.1), Tweakin (9.0.0), Vault (1.7.3-b131), VentureChat (3.7.2), WildLoaders (2025.1), WorldEdit (7.3.16+cbf4bd5)
+[22:36:03] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:36:05] [ServerMain/INFO]: Loaded 1407 recipes
+[22:36:05] [ServerMain/INFO]: Loaded 1520 advancements
+[22:36:06] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[22:36:06] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 707.2ms
+[22:36:06] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[22:36:06] [Server thread/INFO]: Loading properties
+[22:36:07] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[22:36:07] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:36:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:36:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:36:07] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:36:07] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[22:36:08] [Server thread/INFO]: Default game type: SURVIVAL
+[22:36:08] [Server thread/INFO]: Generating keypair
+[22:36:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:36:08] [Server thread/INFO]: Using epoll channel type
+[22:36:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:36:08] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-api/4.20.0/adventure-api-4.20.0.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-key/4.20.0/adventure-key-4.20.0.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.20.0/adventure-text-minimessage-4.20.0.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.20.0/adventure-text-serializer-gson-4.20.0.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.20.0/adventure-text-serializer-json-4.20.0.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-commons/4.20.0/adventure-text-serializer-commons-4.20.0.jar
+[22:36:09] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/5342_msx/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.20.0/adventure-text-serializer-legacy-4.20.0.jar
+[22:36:10] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[22:36:10] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[22:36:10] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-753
+[22:36:10] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.8) has not yet been tested! Proceed with caution.
+[22:36:10] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.1.2
+[22:36:10] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.15.1
+[22:36:10] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.8! Trying to find NMS support
+[22:36:10] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(1.21.8-R0.1-SNAPSHOT) is not supported by this NBT-API Version(2.15.1) located in NBTAPI. The NBT-API will try to work as good as it can! Some functions may not work!
+[22:36:10] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[22:36:10] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[22:36:11] [Thread-6/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
+[22:36:12] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6fafc3ce]
+[22:36:12] [Server thread/INFO]: [Tweakin] Loading server plugin Tweakin v9.0.0
+[22:36:12] [Server thread/INFO]: [SurvivalEnhanced] Loading server plugin SurvivalEnhanced v1.0.1
+[22:36:12] [Server thread/INFO]: [WildLoaders] Loading server plugin WildLoaders v2025.1
+[22:36:12] [Server thread/INFO]: [WildLoaders] &cThe plugin doesn't support your minecraft version.
+[22:36:12] [Server thread/INFO]: [WildLoaders] &cPlease try a different version.
+[22:36:12] [Server thread/WARN]: com.bgsoftware.wildloaders.libs.com.bgsoftware.common.nmsloader.NMSLoadException: Couldn't find valid builtin nms handlers for the data version: 4440
+[22:36:12] [Server thread/WARN]: 	at WildLoaders-2025.1.jar//com.bgsoftware.wildloaders.libs.com.bgsoftware.common.nmsloader.NMSHandlersFactory.getNMSPackageVersionName(NMSHandlersFactory.java:86)
+[22:36:12] [Server thread/WARN]: 	at WildLoaders-2025.1.jar//com.bgsoftware.wildloaders.libs.com.bgsoftware.common.nmsloader.NMSHandlersFactory.createNMSLoader(NMSHandlersFactory.java:33)
+[22:36:12] [Server thread/WARN]: 	at WildLoaders-2025.1.jar//com.bgsoftware.wildloaders.libs.com.bgsoftware.common.nmsloader.NMSHandlersFactory.createNMSLoader(NMSHandlersFactory.java:29)
+[22:36:12] [Server thread/WARN]: 	at WildLoaders-2025.1.jar//com.bgsoftware.wildloaders.WildLoadersPlugin.loadNMSAdapter(WildLoadersPlugin.java:109)
+[22:36:12] [Server thread/WARN]: 	at WildLoaders-2025.1.jar//com.bgsoftware.wildloaders.WildLoadersPlugin.onLoad(WildLoadersPlugin.java:54)
+[22:36:12] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
+[22:36:12] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
+[22:36:12] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
+[22:36:12] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39)
+[22:36:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:566)
+[22:36:12] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:235)
+[22:36:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164)
+[22:36:12] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[22:36:12] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[22:36:12] [Server thread/INFO]: [WildLoaders] &cThere was an error while loading the plugin.
+[22:36:12] [Server thread/INFO]: [LiteEco] Loading server plugin LiteEco v1.6.1-SNAPSHOT
+[22:36:12] [Server thread/INFO]: [LiteEco] Resource database.db exists [!]
+[22:36:12] [Server thread/INFO]: [LiteEco] ✅ Translation loaded: en_us.yml
+[22:36:12] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] LiteEco - Starting...
+[22:36:13] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] LiteEco - Added connection org.sqlite.jdbc4.JDBC4Connection@2cbec204
+[22:36:13] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] LiteEco - Start completed.
+[22:36:13] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:plugins/LiteEco/database.db (SQLite 3.49)
+[22:36:13] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 0 migrations (execution time 00:00.019s)
+[22:36:13] [Server thread/WARN]: [org.flywaydb.core.internal.command.DbValidate] No migrations found. Are your locations set up correctly?
+[22:36:13] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": << Empty Schema >>
+[22:36:13] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[22:36:13] [Server thread/INFO]: [LiteEco] ✅ Database connection established successfully.
+[22:36:13] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.1
+[22:36:13] [Server thread/INFO]: [SupremeTags] Loading server plugin SupremeTags v2.0.14
+[22:36:13] [Server thread/INFO]: [RealPermissions] Loading server plugin RealPermissions v0.4.3
+[22:36:13] [Server thread/INFO]: [ArmorStandEditor] Loading server plugin ArmorStandEditor v1.21.7-49
+[22:36:13] [Server thread/INFO]: [SuperDispensersPlugin] Loading server plugin SuperDispensersPlugin v1.1
+[22:36:13] [Server thread/INFO]: [GWarp] Loading server plugin GWarp v[2.13.0.2]
+[22:36:13] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.4
+[22:36:13] [Server thread/INFO]: [Flashlight] Loading server plugin Flashlight v1.0.0
+[22:36:13] [Server thread/INFO]: [HarvestFortune] Loading server plugin HarvestFortune v1.1.1
+[22:36:13] [Server thread/INFO]: [EggEmAll2] Loading server plugin EggEmAll2 v2.0.5
+[22:36:13] [Server thread/INFO]: [OfflineGrowth] Loading server plugin OfflineGrowth v2.0.5
+[22:36:13] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.22.3
+[22:36:13] [Server thread/INFO]: [VentureChat] Loading server plugin VentureChat v3.7.2
+[22:36:13] [Server thread/INFO]: [Guilds] Loading server plugin Guilds v3.5.7.1
+[22:36:13] [Server thread/INFO]: [Guilds] Loading Libraries...
+[22:36:13] [Server thread/INFO]: [Guilds] Note: This might take a few minutes on first run. Kindly ensure internet connectivity.
+[22:36:13] [Server thread/INFO]: [Guilds] Loaded libraries in 0.418 seconds
+[22:36:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:36:13] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[22:36:14] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:36:14] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[22:36:14] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-753
+[22:36:14] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[22:36:14] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:36:14] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[22:36:14] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[22:36:16] [Server thread/INFO]: [LiteEco] Enabling LiteEco v1.6.1-SNAPSHOT
+[22:36:16] [Server thread/WARN]: [LiteEco] Blocked plugins are now 1
+[22:36:16] [Server thread/INFO]: [LiteEco] Registering 6 hooks...
+[22:36:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: liteeco [2.0.5]
+[22:36:16] [Server thread/INFO]: [LiteEco] PlaceholderAPI found hook PlaceholderAPIHook registered !.
+[22:36:16] [Server thread/INFO]: [LiteEco] You can now use placeholders from https://github.com/EncryptSL/LiteEco/wiki/Placeholders#papi-available-placeholders
+[22:36:16] [Server thread/INFO]: [LiteEco] Vault found hook VaultHook registered !.
+[22:36:16] [Server thread/INFO]: [LiteEco] You can now use Vault API !
+[22:36:16] [Server thread/INFO]: [LiteEco] Registered 2 of 6 hooks took 12 ms
+[22:36:17] [Server thread/INFO]: [LiteEco] Registering commands with Cloud Command Framework !
+[22:36:17] [DefaultDispatcher-worker-1/INFO]: [LiteEco] You are using the current version!
+[22:36:17] [Server thread/INFO]: [LiteEco] Registering (9) of listeners took 13 ms -> ok
+[22:36:17] [Server thread/INFO]: [LiteEco] Config was updated on current version !
+[22:36:17] [Server thread/INFO]: [LiteEco] Contribute to other updates https://ko-fi.com/encryptsl
+[22:36:17] [Server thread/INFO]: [LiteEco] Plugin enabled in time 801 ms
+[22:36:17] [Server thread/INFO]: Preparing level "world"
+[22:36:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:36:20] [Server thread/INFO]: Preparing spawn area: 0%
+[22:36:20] [Server thread/INFO]: Preparing spawn area: 0%
+[22:36:20] [Server thread/INFO]: Preparing spawn area: 2%
+[22:36:21] [Server thread/INFO]: Preparing spawn area: 61%
+[22:36:21] [Server thread/INFO]: Time elapsed: 1954 ms
+[22:36:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:36:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:36:21] [Server thread/INFO]: Time elapsed: 410 ms
+[22:36:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:36:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:36:22] [Server thread/INFO]: Time elapsed: 211 ms
+[22:36:22] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[22:36:22] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[22:36:22] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.1.2
+[22:36:23] [Server thread/INFO]: Preparing start region for dimension minecraft:builds
+[22:36:23] [Server thread/INFO]: Preparing spawn area: 0%
+[22:36:24] [Server thread/INFO]: Preparing spawn area: 14%
+[22:36:24] [Server thread/INFO]: Time elapsed: 593 ms
+[22:36:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.1.2]
+[22:36:25] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[22:36:25] [Server thread/INFO]: [Multiverse-Core] Version 5.1.2 (API v5.1) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[22:36:25] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[22:36:25] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.15.1
+[22:36:25] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[22:36:25] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[22:36:25] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[22:36:25] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[22:36:28] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[22:36:28] [Server thread/INFO]: [Tweakin] Enabling Tweakin v9.0.0
+[22:36:28] [Server thread/INFO]: [Tweakin] Running papermc..
+[22:36:28] [Server thread/INFO]: [Tweakin] [PriLib] Running 1.21.8 minecraft version
+[22:36:28] [Server thread/INFO]: [Tweakin] [ACF] Enabled Asynchronous Tab Completion Support!
+[22:36:28] [Server thread/INFO]: [Tweakin] Loading tweakin...
+[22:36:29] [Server thread/INFO]: [Tweakin] Loading Poses...
+[22:36:29] [Server thread/INFO]: [Tweakin] Loaded 22 armor stand poses.
+[22:36:29] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:36:32] [Server thread/INFO]: [Tweakin] Registered 196 recipes from mini-blocks tweak
+[22:36:32] [Server thread/INFO]: [Tweakin] Generated 201 mob heads..
+[22:36:32] [Server thread/INFO]: [Tweakin] Using 0,16,0 as color for reach-around, due to other color channels being removed after 1.17
+[22:36:32] [Server thread/INFO]: [Tweakin] Registered 25 tweaks successfully
+[22:36:32] [Server thread/INFO]: [Tweakin] Registering permissions
+[22:36:32] [Server thread/INFO]: [Tweakin] Registered 66 permissions
+[22:36:32] [Server thread/INFO]: [Tweakin] Enabling bstats...
+[22:36:32] [Server thread/INFO]: [Tweakin] Tweakin loaded successfully
+[22:36:32] [Server thread/INFO]: [SurvivalEnhanced] Enabling SurvivalEnhanced v1.0.1
+[22:36:32] [Server thread/INFO]: [WildLoaders] Enabling WildLoaders v2025.1
+[22:36:32] [Server thread/INFO]: [WildLoaders] Disabling WildLoaders v2025.1
+[22:36:32] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.1.1
+[22:36:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.1.1]
+[22:36:33] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[22:36:33] [Server thread/INFO]: [Multiverse-Inventories] Version 5.1.1 (API v5.1) Enabled - By dumptruckman and benwoo1110
+[22:36:33] [Server thread/INFO]: [SupremeTags] Enabling SupremeTags v2.0.14
+[22:36:33] [Server thread/INFO]: 
+[22:36:33] [Server thread/INFO]:   ____  _   _ ____  ____  _____ __  __ _____ _____  _    ____ ____  
+[22:36:33] [Server thread/INFO]:  / ___|| | | |  _ \|  _ \| ____|  \/  | ____|_   _|/ \  / ___/ ___| 
+[22:36:33] [Server thread/INFO]:  \___ \| | | | |_) | |_) |  _| | |\/| |  _|   | | / _ \| |  _\___ \ 
+[22:36:33] [Server thread/INFO]:   ___) | |_| |  __/|  _ <| |___| |  | | |___  | |/ ___ \ |_| |___) |
+[22:36:33] [Server thread/INFO]:  |____/ \___/|_|   |_| \_\_____|_|  |_|_____| |_/_/   \_\____|____/ 
+[22:36:33] [Server thread/INFO]:  Allow players to show off their supreme tags!
+[22:36:33] [Server thread/INFO]: 
+[22:36:33] [Server thread/INFO]: > Version: 2.0.14
+[22:36:33] [Server thread/INFO]: > Author: DevScape
+[22:36:33] [Server thread/INFO]: > NBTAPI: Found!
+[22:36:33] [Server thread/INFO]: > Vault: Found!
+[22:36:33] [Server thread/INFO]: > Database: H2!
+[22:36:33] [Server thread/INFO]: > Plugin up to date!
+[22:36:35] [Server thread/INFO]: ProtocolLib found! Registered packet listener.
+[22:36:35] [Server thread/INFO]: > PlayerPoints: Not Found!
+[22:36:35] [Server thread/INFO]: > CoinsEngine: Not Found!
+[22:36:35] [Server thread/INFO]: §e> PlaceholderAPI: Found
+[22:36:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: supremetags [2.0.14]
+[22:36:35] [Server thread/INFO]: [TAGS] Loaded 2 tag(s) successfully.
+[22:36:35] [Server thread/INFO]: [RealPermissions] Enabling RealPermissions v0.4.3
+[22:36:35] [Server thread/INFO]: [RealPermissions]    _____            _ _____                    _         _ 
+[22:36:35] [Server thread/INFO]: [RealPermissions]   |  __ \          | |  __ \                  (_)       (_)  Version: 0.4.3
+[22:36:35] [Server thread/INFO]: [RealPermissions]   | |__) |___  __ _| | |__) |__ _ __ _ __ ___  _ ___ ___ _  ___  _ __  ___
+[22:36:35] [Server thread/INFO]: [RealPermissions]   |  _  // _ \/ _` | |  ___/ _ \ '__| '_ ` _ \| / __/ __| |/ _ \| '_ \/ __|
+[22:36:35] [Server thread/INFO]: [RealPermissions]   | | \ \  __/ (_| | | |  |  __/ |  | | | | | | \__ \__ \ | (_) | | | \__ \
+[22:36:35] [Server thread/INFO]: [RealPermissions]   |_|  \_\___|\__,_|_|_|   \___|_|  |_| |_| |_|_|___/___/_|\___/|_| |_|___/
+[22:36:35] [Server thread/INFO]: [RealPermissions]                                                       Made by: JoseGamer_PT
+[22:36:36] [Server thread/INFO]: [RealPermissions] Loaded 7 ranks.
+[22:36:36] [Server thread/INFO]: [RealPermissions] Loading database.
+[22:36:36] [Server thread/INFO]: [RealPermissions] Database loaded!
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 2 permissions from Vault, version: 1.7.3-b131
+[22:36:36] [Server thread/INFO]: [RealPermissions] Vault found and Hooked into!
+[22:36:36] [Server thread/INFO]: [RealPermissions] Loaded 2 rankups.
+[22:36:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: realpermissions [0.4.3]
+[22:36:36] [Server thread/INFO]: [RealPermissions] Hooked onto PlaceholderAPI!
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 41 permissions from PlaceholderAPI, version: 2.11.6
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 5 permissions from ProtocolLib, version: 5.4.0-SNAPSHOT-753
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 11 permissions from Tweakin, version: 9.0.0
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 7 permissions from WildLoaders, version: 2025.1
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 30 permissions from LiteEco, version: 1.6.1-SNAPSHOT
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 106 permissions from ArmorStandEditor, version: 1.21.7-49
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 46 permissions from GWarp, version: [2.13.0.2]
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 260 permissions from ItemEdit, version: 3.7.4
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 5 permissions from Flashlight, version: 1.0.0
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 3 permissions from HarvestFortune, version: 1.1.1
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 5 permissions from EggEmAll2, version: 2.0.5
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 1 permissions from OfflineGrowth, version: 2.0.5
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 8 permissions from AxGraves, version: 1.22.3
+[22:36:36] [Server thread/INFO]: [RealPermissions] [API] Loaded 55 permissions from Guilds, version: 3.5.7.1
+[22:36:36] [Server thread/INFO]: [RealPermissions] Loaded 583 permissions from .jars!
+[22:36:36] [Server thread/INFO]: [RealPermissions] Finished loading in 0.996 seconds.
+[22:36:36] [Server thread/INFO]: [RealPermissions] <------------------ RealPermissions v0.4.3 ------------------>
+[22:36:36] [Server thread/INFO]: [ArmorStandEditor] Enabling ArmorStandEditor v1.21.7-49
+[22:36:36] [Server thread/INFO]: [ArmorStandEditor] ======= ArmorStandEditor =======
+[22:36:36] [Server thread/INFO]: [ArmorStandEditor] Plugin Version: v1.21.7-49
+[22:36:36] [Server thread/INFO]: [ArmorStandEditor] Minecraft Version: 1.21.8
+[22:36:36] [Server thread/INFO]: [ArmorStandEditor] ArmorStandEditor is compatible with this version of Minecraft. Loading continuing.
+[22:36:36] [Server thread/INFO]: [ArmorStandEditor] SpigotMC: true
+[22:36:36] [Server thread/INFO]: Registering Scoreboards required for Glowing Effects
+[22:36:36] [Server thread/INFO]: [ArmorStandEditor] ================================
+[22:36:37] [Server thread/INFO]: [SuperDispensersPlugin] Enabling SuperDispensersPlugin v1.1
+[22:36:37] [Server thread/INFO]: [SuperDispensersPlugin] Registering event handlers for Super Dispensers.
+[22:36:37] [Server thread/INFO]: [GWarp] Enabling GWarp v[2.13.0.2]
+[22:36:37] [Server thread/INFO]: [GWarp] The Plugin was successfully enabled.
+[22:36:37] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.4
+[22:36:37] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[22:36:37] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[22:36:37] [Server thread/INFO]: [ItemEdit] Hooking into Vault
+[22:36:37] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
+[22:36:37] [Server thread/INFO]: [ItemEdit] placeholders:
+[22:36:37] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[22:36:37] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[22:36:37] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[22:36:37] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[22:36:37] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
+[22:36:37] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[22:36:37] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[22:36:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[22:36:37] [Server thread/INFO]: [ItemEdit] # Enabled (took 585 ms)
+[22:36:37] [Server thread/INFO]: [Flashlight] Enabling Flashlight v1.0.0
+[22:36:37] [Server thread/INFO]: [Flashlight] Flashlight plugin has been enabled!
+[22:36:37] [Server thread/INFO]: [HarvestFortune] Enabling HarvestFortune v1.1.1
+[22:36:37] [Server thread/INFO]: [HarvestFortune] Loaded crop configs: [NETHER_WART, PITCHER_CROP, CARROTS, SWEET_BERRY_BUSH, TORCHFLOWER_CROP, POTATOES, PUMPKIN, GLOW_BERRIES, WHEAT, BEETROOTS, COCOA, MELON]
+[22:36:37] [Server thread/INFO]: [HarvestFortune] HarvestFortune enabled!
+[22:36:37] [Server thread/INFO]: [EggEmAll2] Enabling EggEmAll2 v2.0.5
+[22:36:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: eggemall2 [2.0.5]
+[22:36:39] [Server thread/INFO]: ===================== EGG EM ALL =====================
+[22:36:39] [Server thread/INFO]: Catchable Entities: 75
+[22:36:39] [Server thread/INFO]: Blacklisted Entities: 10
+[22:36:39] [Server thread/INFO]: Blacklisted Worlds: 1
+[22:36:39] [Server thread/INFO]: ======================================================
+[22:36:39] [Server thread/INFO]: [OfflineGrowth] Enabling OfflineGrowth v2.0.5
+[22:36:39] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.22.3
+[22:36:40] [Server thread/INFO]: [VentureChat] Enabling VentureChat v3.7.2
+[22:36:40] [Server thread/INFO]: [VentureChat] - Initializing...
+[22:36:40] [Server thread/INFO]: [VentureChat] - Config found! Loading file.
+[22:36:40] [Server thread/INFO]: [VentureChat] - Checking for Vault...
+[22:36:40] [Server thread/INFO]: [VentureChat] - Could not find Vault and/or a Vault compatible permissions plugin!
+[22:36:40] [Server thread/INFO]: [VentureChat] Disabling VentureChat v3.7.2
+[22:36:40] [Server thread/INFO]: [VentureChat] - Disabling...
+[22:36:40] [Server thread/INFO]: [VentureChat] - Disabled Successfully
+[22:36:40] [Server thread/INFO]: [Guilds] Enabling Guilds v3.5.7.1
+[22:36:40] [Server thread/INFO]:   ________ 
+[22:36:40] [Server thread/INFO]:  /  _____/ 
+[22:36:40] [Server thread/INFO]: /   \  ___   Guilds v3.5.7.1
+[22:36:40] [Server thread/INFO]: \    \_\  \  Server Version: 1.21.8-6-782ce95 (MC: 1.21.8)
+[22:36:40] [Server thread/INFO]:  \______  /
+[22:36:40] [Server thread/INFO]:         \/ 
+[22:36:41] [Server thread/INFO]: [Guilds] Economy Found: LiteEco
+[22:36:41] [Server thread/INFO]: [Guilds] Permissions Found: SuperPerms
+[22:36:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: guilds [2.1]
+[22:36:42] [Server thread/INFO]: [Guilds] [ACF] Enabled Asynchronous Tab Completion Support!
+[22:36:43] [Thread-17/INFO]: [Guilds] Your version of Guilds (3.5.7.1) is up to date!
+[22:36:43] [Server thread/INFO]: [Guilds] Ready to go! That only took 2561ms
+[22:36:44] [TaskChainAsyncQueue Thread 0/INFO]: [Guilds] Could not retrieve announcements
+[22:36:44] [Server thread/INFO]: [spark] Starting background profiler...
+[22:36:45] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[22:36:45] [Server thread/INFO]: Done preparing level "world" (27.524s)
+[22:36:45] [Server thread/INFO]: Running delayed init tasks
+[22:36:45] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[22:36:45] [Server thread/INFO]: [Multiverse-Inventories] First run!
+[22:36:45] [Server thread/INFO]: Checking for conflicts in groups...
+[22:36:45] [Server thread/INFO]: No group conflicts found!
+[22:36:45] [Server thread/INFO]: [OfflineGrowth] Loaded 1 chunks into memory on first startup
+[22:36:45] [Server thread/INFO]: Done (53.580s)! For help, type "help"
+[22:36:45] [Craft Scheduler Thread - 8 - EggEmAll2/INFO]: [EggEmAll2] You are running the latest release.
+[22:36:45] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
+[22:36:45] [Craft Scheduler Thread - 6 - RealPermissions/INFO]: [RealPermissions] The plugin is updated to the latest version.
+[22:36:45] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
+[22:37:20] [User Authenticator #0/INFO]: UUID of player Ygrad is 4c2ffda1-f370-49af-8353-fde1016f204f
+[22:37:20] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [ProtocolLib]
+[22:37:22] [Server thread/INFO]: Ygrad joined the game
+[22:37:22] [TaskChainAsyncQueue Thread 0/ERROR]: [global] TaskChain Exception on me.glaremasters.guilds.guild.Guild$$Lambda/0x000073774dfe6118: java.lang.ExceptionInInitializerError
+[22:37:22] [TaskChainAsyncQueue Thread 0/ERROR]: [global] Current Action Index was: 0
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: java.lang.Exception: java.lang.ExceptionInInitializerError
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.taskchain.TaskChain.handleError(TaskChain.java:1203)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.taskchain.TaskChain.access$600(TaskChain.java:57)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.taskchain.TaskChain$TaskHolder.run(TaskChain.java:1320)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.taskchain.TaskChain$TaskHolder.access$100(TaskChain.java:1266)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.taskchain.TaskChain.lambda$nextTask$18(TaskChain.java:1187)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: Caused by: java.lang.ExceptionInInitializerError
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.xseries.profiles.mojang.MojangAPI.<clinit>(MojangAPI.java:30)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.xseries.profiles.objects.Profileable$UsernameProfileable.getProfile0(Profileable.java:225)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.xseries.profiles.objects.cache.CacheableProfileable.getProfile(CacheableProfileable.java:41)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.xseries.profiles.objects.Profileable$PlayerProfileable.getProfile0(Profileable.java:288)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.xseries.profiles.objects.cache.CacheableProfileable.getProfile(CacheableProfileable.java:41)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.xseries.profiles.objects.Profileable.getDisposableProfile(Profileable.java:62)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.xseries.profiles.builder.ProfileInstruction.apply(ProfileInstruction.java:158)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.guild.GuildSkull.<init>(GuildSkull.java:50)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.guild.Guild.lambda$updateGuildSkull$10(Guild.java:597)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.taskchain.TaskChainTasks$GenericTask.run(TaskChainTasks.java:83)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.taskchain.TaskChain$TaskHolder.run(TaskChain.java:1312)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	... 7 more
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: Caused by: java.lang.NoSuchFieldException: None of the fields were found for FieldMemberHandle{protected/private GameProfile profile}
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.xseries.reflection.jvm.FieldMemberHandle.reflectJvm(FieldMemberHandle.java:178)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.xseries.reflection.jvm.FieldMemberHandle.reflect(FieldMemberHandle.java:112)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.xseries.profiles.ProfilesCore.<clinit>(ProfilesCore.java:63)
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	... 18 more
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 	Suppressed: java.lang.NoSuchFieldException: Field named 'profile' was found but the types don't match: private net.minecraft.world.item.component.ResolvableProfile org.bukkit.craftbukkit.inventory.CraftMetaSkull.profile != FieldMemberHandle{protected/private GameProfile profile}
+[22:37:22] [TaskChainAsyncQueue Thread 0/WARN]: 		at Guilds-3.5.7.1.jar//me.glaremasters.guilds.libs.xseries.reflection.jvm.FieldMemberHandle.reflectJvm(FieldMemberHandle.java:171)
+[22:37:22] [Server thread/INFO]: Ygrad[/127.162.152.220:56723] logged in with entity id 124 at ([world]-3729.6123552088434, 65.0, 784.0439184222384)
+[22:37:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2514ms or 50 ticks behind
+[22:37:27] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
+[22:37:34] [Server thread/INFO]: Ygrad issued server command: /plugins
+[22:39:40] [Server thread/INFO]: Ygrad lost connection: Disconnected
+[22:39:40] [Server thread/INFO]: Ygrad left the game

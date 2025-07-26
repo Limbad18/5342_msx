@@ -1,0 +1,108 @@
+------------------------------------[ 26.07.2025 22:15:52 ]-----------------------------------
+EggEmAll2 2.0.5 encountered a NoClassDefFoundError
+Running Paper 1.21.8-R0.1-SNAPSHOT and Java 21.0.8
+Plugins: Vault v1.7.3-b131, PlaceholderAPI v2.11.6, ProtocolLib v5.3.0, Multiverse-Core v5.1.2, NBTAPI v2.15.1, WorldEdit v7.3.16+cbf4bd5, Tweakin v9.0.0, SurvivalEnhanced v1.0.1, WildLoaders v2025.1, Multiverse-Inventories v5.1.1, SupremeTags v2.0.14, ArmorStandEditor v1.21.7-49, SuperDispensersPlugin v1.1, GWarp v[2.13.0.2], ItemEdit v3.7.4, Flashlight v1.0.0, HarvestFortune v1.1.1, EggEmAll2 v2.0.5, OfflineGrowth v2.0.5, AxGraves v1.22.3, VentureChat v3.7.2, Guilds v3.5.7.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+You are running an old and unsupported version of ProtocolLib, please update it. The plugin will continue to function without hooking into it.
+NoClassDefFoundError com/comphenix/protocol/ProtocolLibrary
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.model.ProtocolLibHook.<init>(HookManager.java:2265)
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.model.HookManager.loadDependencies(HookManager.java:279)
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:374)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	 at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651)
+	 at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
+ClassNotFoundException com.comphenix.protocol.ProtocolLibrary
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:205)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:172)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.model.ProtocolLibHook.<init>(HookManager.java:2265)
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.model.HookManager.loadDependencies(HookManager.java:279)
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:374)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	 at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651)
+	 at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 26.07.2025 22:15:56 ]-----------------------------------
+EggEmAll2 2.0.5 encountered a FoException
+Running Paper 1.21.8-R0.1-SNAPSHOT and Java 21.0.8
+Plugins: Vault v1.7.3-b131, PlaceholderAPI v2.11.6, ProtocolLib v5.3.0, Multiverse-Core v5.1.2, NBTAPI v2.15.1, WorldEdit v7.3.16+cbf4bd5, Tweakin v9.0.0, SurvivalEnhanced v1.0.1, WildLoaders v2025.1, Multiverse-Inventories v5.1.1, SupremeTags v2.0.14, ArmorStandEditor v1.21.7-49, SuperDispensersPlugin v1.1, GWarp v[2.13.0.2], ItemEdit v3.7.4, Flashlight v1.0.0, HarvestFortune v1.1.1, EggEmAll2 v2.0.5, OfflineGrowth v2.0.5, AxGraves v1.22.3, VentureChat v3.7.2, Guilds v3.5.7.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+EggEmAll2 could not hook into ProtocolLib as the plugin is disabled! (DO NOT REPORT THIS TO EggEmAll2, look for errors above and contact support of 'ProtocolLib')
+FoException Report: EggEmAll2 could not hook into ProtocolLib as the plugin is disabled! (DO NOT REPORT THIS TO EggEmAll2, look for errors above and contact support of 'ProtocolLib')
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.Valid.checkBoolean(Valid.java:90)
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.Common.lambda$doesPluginExist$3(Common.java:1098)
+	 at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	 at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 26.07.2025 22:25:19 ]-----------------------------------
+EggEmAll2 2.0.5 encountered a NoClassDefFoundError
+Running Paper 1.21.8-R0.1-SNAPSHOT and Java 21.0.8
+Plugins: Vault v1.7.3-b131, PlaceholderAPI v2.11.6, ProtocolLib v5.3.0, Multiverse-Core v5.1.2, NBTAPI v2.15.1, WorldEdit v7.3.16+cbf4bd5, Tweakin v9.0.0, SurvivalEnhanced v1.0.1, WildLoaders v2025.1, LiteEco v1.6.1-SNAPSHOT, Multiverse-Inventories v5.1.1, SupremeTags v2.0.14, RealPermissions v0.4.3, ArmorStandEditor v1.21.7-49, SuperDispensersPlugin v1.1, GWarp v[2.13.0.2], ItemEdit v3.7.4, Flashlight v1.0.0, HarvestFortune v1.1.1, EggEmAll2 v2.0.5, OfflineGrowth v2.0.5, AxGraves v1.22.3, VentureChat v3.7.2, Guilds v3.5.7.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+You are running an old and unsupported version of ProtocolLib, please update it. The plugin will continue to function without hooking into it.
+NoClassDefFoundError com/comphenix/protocol/ProtocolLibrary
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.model.ProtocolLibHook.<init>(HookManager.java:2265)
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.model.HookManager.loadDependencies(HookManager.java:279)
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:374)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	 at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651)
+	 at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
+ClassNotFoundException com.comphenix.protocol.ProtocolLibrary
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:205)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:172)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.model.ProtocolLibHook.<init>(HookManager.java:2265)
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.model.HookManager.loadDependencies(HookManager.java:279)
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:374)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	 at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651)
+	 at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 26.07.2025 22:25:25 ]-----------------------------------
+EggEmAll2 2.0.5 encountered a FoException
+Running Paper 1.21.8-R0.1-SNAPSHOT and Java 21.0.8
+Plugins: Vault v1.7.3-b131, PlaceholderAPI v2.11.6, ProtocolLib v5.3.0, Multiverse-Core v5.1.2, NBTAPI v2.15.1, WorldEdit v7.3.16+cbf4bd5, Tweakin v9.0.0, SurvivalEnhanced v1.0.1, WildLoaders v2025.1, LiteEco v1.6.1-SNAPSHOT, Multiverse-Inventories v5.1.1, SupremeTags v2.0.14, RealPermissions v0.4.3, ArmorStandEditor v1.21.7-49, SuperDispensersPlugin v1.1, GWarp v[2.13.0.2], ItemEdit v3.7.4, Flashlight v1.0.0, HarvestFortune v1.1.1, EggEmAll2 v2.0.5, OfflineGrowth v2.0.5, AxGraves v1.22.3, VentureChat v3.7.2, Guilds v3.5.7.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+EggEmAll2 could not hook into ProtocolLib as the plugin is disabled! (DO NOT REPORT THIS TO EggEmAll2, look for errors above and contact support of 'ProtocolLib')
+FoException Report: EggEmAll2 could not hook into ProtocolLib as the plugin is disabled! (DO NOT REPORT THIS TO EggEmAll2, look for errors above and contact support of 'ProtocolLib')
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.Valid.checkBoolean(Valid.java:90)
+	 at EggEmAll2-2.0.5.jar//dev.shadmage.eggemall.lib.Common.lambda$doesPluginExist$3(Common.java:1098)
+	 at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	 at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+

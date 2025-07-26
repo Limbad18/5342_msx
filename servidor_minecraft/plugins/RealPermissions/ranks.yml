@@ -1,0 +1,85 @@
+Version: 1
+Default-Rank: Player
+Ranks:
+  Player:
+    Icon: LEATHER_HELMET
+    Prefix: '&7Player'
+    Chat: '%prefix% %player% &7- %message%'
+    Inheritance: []
+    Permissions:
+    - essentials.motd
+  VIP:
+    Icon: IRON_INGOT
+    Prefix: '&9VIP'
+    Chat: '%prefix% %player% &7- &f%message%'
+    Inheritance:
+    - Player
+    Permissions:
+    - essentials.afk
+    - essentials.afk.message
+    - essentials.afk.others
+    - essentials.afk.auto
+    - essentials.afk.kickexempt
+    - essentials.showkit
+    - essentials.balance
+    - essentials.enderchest
+  VIP+:
+    Icon: GOLD_INGOT
+    Prefix: '&bVIP+'
+    Chat: '%prefix% %player% &7- &f%message%'
+    Inheritance:
+    - Player
+    - VIP
+    Permissions:
+    - essentials.firework
+  VIPPro:
+    Icon: DIAMOND
+    Prefix: '&b&lVIPPro'
+    Chat: '%prefix% %player% &7- &f%message%'
+    Inheritance:
+    - Player
+    - VIP
+    - VIP+
+    Permissions:
+    - essentials.hat
+    - essentials.heal
+    - essentials.heal.*
+  Moderator:
+    Icon: REDSTONE
+    Prefix: '&eModerator'
+    Chat: '%prefix% %player% &7- &f%message%'
+    Inheritance:
+    - Player
+    - VIP
+    Permissions:
+    - essentials.exp
+    - essentials.kick
+    - essentials.mute
+    - essentials.mute.notify
+  Admin:
+    Icon: COMMAND_BLOCK
+    Prefix: '&c&lAdmin'
+    Chat: '%prefix% %player% &7- &f%message%'
+    Inheritance:
+    - Player
+    - VIP
+    - Moderator
+    Permissions:
+    - essentials.exp
+    - essentials.kick
+    - essentials.mute
+    - essentials.mute.notify
+  Owner:
+    Icon: BEDROCK
+    Prefix: '&a&lOwner'
+    Chat: '%prefix% %player% &7- &f%message%'
+    Inheritance:
+    - Player
+    - VIP
+    - Moderator
+    - Admin
+    Permissions:
+    - essentials.ban
+    - essentials.give
+    - essentials.broadcast
+    - essentials.enchant

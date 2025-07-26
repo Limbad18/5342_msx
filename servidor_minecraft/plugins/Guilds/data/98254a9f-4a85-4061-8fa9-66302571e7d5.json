@@ -1,0 +1,35 @@
+{
+  "id": "98254a9f-4a85-4061-8fa9-66302571e7d5",
+  "name": "§aLore",
+  "prefix": "§aLore",
+  "guildMaster": {
+    "uuid": "4c2ffda1-f370-49af-8353-fde1016f204f",
+    "role": {
+      "level": 0
+    },
+    "joinDate": 1753568824925,
+    "lastLogin": 0
+  },
+  "status": "Private",
+  "tier": {
+    "level": 1
+  },
+  "balance": 0.0,
+  "members": [
+    {
+      "uuid": "4c2ffda1-f370-49af-8353-fde1016f204f",
+      "role": {
+        "level": 0
+      },
+      "joinDate": 1753568824925,
+      "lastLogin": 1753569442370
+    }
+  ],
+  "invitedMembers": [],
+  "allies": [],
+  "pendingAllies": [],
+  "codes": [],
+  "vaults": [],
+  "lastDefended": 0,
+  "creationDate": 1753568824926
+}
