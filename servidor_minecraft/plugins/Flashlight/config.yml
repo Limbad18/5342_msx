@@ -3,13 +3,13 @@
 
 # General settings
 enabled: true
-update-interval: 5  # How often to update lights (in ticks, 20 ticks = 1 second)
-max-light-distance: 50  # Maximum distance for light effects (blocks)
-require-permission: false  # Whether players need flashlight.use permission
+update-interval: 5 # How often to update lights (in ticks, 20 ticks = 1 second)
+max-light-distance: 50 # Maximum distance for light effects (blocks)
+require-permission: false # Whether players need flashlight.use permission
 
 # Broadcast settings
 broadcast:
-  enabled: false  # Broadcast admin actions
+  enabled: false # Broadcast admin actions
 
 # Light levels for different items (0-15, 0 = no light)
 light-levels:
@@ -75,6 +75,6 @@ light-levels:
 
 # Plugin messages
 messages:
-  plugin-enabled: "&6[Flashlight] &aDynamic lighting is now active!"
-  no-permission: "&cYou don't have permission to use this command."
-  unknown-command: "&cUnknown subcommand. Use /flashlight help for available commands."
+  plugin-enabled: '&6[Flashlight] &aDynamic lighting is now active!'
+  no-permission: '&cYou don''t have permission to use this command.'
+  unknown-command: '&cUnknown subcommand. Use /flashlight help for available commands.'

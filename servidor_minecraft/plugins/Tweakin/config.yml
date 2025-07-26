@@ -49,7 +49,6 @@ grief-plugin-support: true
 # Right-Clicking an armor item in an inventory will swap it for whatever armor you're currently holding.
 # Permission: tweakin.armorclick
 armor-right-click:
-  enabled: false
   check-permissions: false
 
 
@@ -58,7 +57,7 @@ armor-right-click:
   # tweakin.shulkerboxclick: permission to allow opening of shulker box
   # tweakin.enderchestclick: permission to allow opening of enderchest
 shulker-box-preview:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
   # if set to true players will able to open the enderchest just like shulker-box
@@ -109,7 +108,6 @@ noteblock-mob-sounds:
   # tweakin.reacharound.togglecommand: permission to use /togglereacharound|/treacharound
 # Worldguard Flag: tweakin-reach-around
 reach-around:
-  enabled: false
   check-permissions: false
   black-list-worlds: []
   # alias for the toggle reacharound command (requires a server restart)
@@ -134,7 +132,7 @@ reach-around:
 
 # Leaves decay much faster when no logs are nearby, or when the leaves are not player placed  
 fast-leaf-decay:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
   # maximum duration leaves will stay (in seconds)
@@ -146,7 +144,7 @@ fast-leaf-decay:
   # Shift+right clicking any end of ladder will allow you to reach the another end, resulting in quick climb (may or may not work with anti cheats)
 # Permission: tweakin.betterladder.* tweakin.betterladder.dropdown, tweakin.betterladder.quickclimb
 better-ladder:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
   # Universal toggle for dropdown ladder feature
@@ -159,7 +157,7 @@ better-ladder:
 # Lapis placed in enchanting table will stay there
 # item placed in enchanting slot will display above the enchanting table
 lapis-in-table:
-  enabled: false
+  enabled: true
   check-permissions: false
   # weather or not to store the item thats being enchanted too
   store-item: true
@@ -178,7 +176,7 @@ auto-recipe-unlock:
 # these coordinates will direct where the other portal should be created in the opposite dimension.
 # Permission: tweakin.netherportalcoords
 nether-portal-coords:
-  enabled: false
+  enabled: true
   check-permissions: false
   # pairs of valid overworld|nether
   # example: [myworld|myworld_nether,survival|survival_nether]
@@ -210,7 +208,7 @@ nether-portal-coords:
 # Does what it says, allows player to attack mobs through grass or any other passable block
 # Permission: tweakin.swingthroughgrass
 swing-through-grass:
-  enabled: false
+  enabled: true
   check-permissions: false
 
 
@@ -429,7 +427,7 @@ slime-in-bucket:
 # this will also heal the dog betweed 1-3 hearts
 # Permission: tweakin.patdog,tweakin.patcat
 pat-dogs:
-  enabled: false
+  enabled: true
   check-permissions: false
   # cooldown in ticks to pat a dog, set to 0 to disable it
   cooldown: 60
@@ -458,7 +456,6 @@ compass-work-everywhere:
 # Wither spawn,end portal create event and ender dragon death
 # only players within 40 block radius of the sound source can hear them, not sure why its not in vanilla already...
 broadcast-sound-nerf:
-  enabled: false
 
 
 # Requires ProtocolLib and is available only before 1.20
@@ -467,7 +464,6 @@ broadcast-sound-nerf:
 # Permisssion: tweakin.bettersignedit.use
 # WorldGuard flag: tweakin-better-sign-edit
 better-sign-edit:
-  enabled: false
   check-permissions: false
   black-list-worlds: []
 
@@ -477,7 +473,7 @@ better-sign-edit:
 # Permission:
   # tweakin.hoeharvesting.use: permission to use this tweak
 hoe-harvesting:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
   # range at which area will be cleared. 
@@ -503,7 +499,7 @@ hoe-harvesting:
 # REQUIRES PaperMC or its fork as Server Software
 # Holding an Emerald Block causes nearby villagers to follow the player, much like animals do for food items. 
 villager-follow-emerald:
-  enabled: false
+  enabled: true
   black-list-worlds: []
 
 
@@ -540,7 +536,7 @@ animal-flee:
 # Permission: tweakin.shearitemframe.use
 # Worldguard flag: tweakin-shear-item-frame
 shear-item-frame:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
 
@@ -548,7 +544,7 @@ shear-item-frame:
 # Snowballs and eggs will apply more knockback to entity on hit and also deal damage
 # Worldguard flag: tweakin-snowball-knockback
 snowball-knockback:
-  enabled: false
+  enabled: true
   # multiplier for knockback
   modifier: 0.8
   black-list-worlds: []
@@ -576,7 +572,7 @@ infinity-water-bucket:
 # Permission:
   # tweakin.mobheads.drops: players without this permission will not get mob head drops on killing them(only works if require-player-kill is set to true)
 mob-heads:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
   # if set to false mobs will not drop heads if they are not killed by player
@@ -588,7 +584,7 @@ mob-heads:
 # Permission:
   # tweakin.bettergrindstone: allows to use the grindstone functionality
 better-grindstone:
-  enabled: false
+  enabled: true
   check-permissions: false
   # if set to true, items enchanted from enchanting table will be ignored
   ignore-items-from-enchanting-table: false
@@ -620,7 +616,7 @@ armored-elytra:
 # Permission: 
   # tweakin.villagerdeathmessage.notify: players with this permission will only recive the death messages
 villager-death-message:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
 
@@ -638,7 +634,7 @@ villager-death-message:
   # tweakin.command.addpose: permission to use addpose command
   # tweakin.command.removepose: permission to use remove pose command
 better-armorstands:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
   # if set to false armor swaping between armor stand and player will be disabled
@@ -657,7 +653,7 @@ better-armorstands:
 # Permissions:
   # tweakin.armorstandwand.use: permission to use the wand
 armorstand-wand:
-  enabled: false
+  enabled: true
   check-permissions: false
   craftable: true
 
@@ -667,7 +663,7 @@ armorstand-wand:
 # Permissions:
   # tweakin.shearnametag.use: Permission to use this tweak
 shear-name-tag:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
 
@@ -727,7 +723,7 @@ more-recipes:
 # Permissions:
   # tweakin.cauldronconcrete.use: permission to use this tweak
 cauldron-concrete:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
 
@@ -756,7 +752,7 @@ better-recovery-compass:
 # Permissions:
   # tweakin.anvilrepair.use: permission to use this tweak
 anvil-repair:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
   # list of valid repairable blocks
@@ -768,7 +764,7 @@ anvil-repair:
 # Permissions:
   # tweakin.waterextinguish.use: permission to use this tweak
 water-extinguish:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
   # weather or not the tweak works on entities other than player
@@ -780,7 +776,7 @@ water-extinguish:
 # Pemissions:
   # tweakin.betterbonemeal.use: permission to use this tweak
 better-bone-meal:
-  enabled: false
+  enabled: true
   check-permissions: false
   black-list-worlds: []
   # valid blocks CACTUS, NETHERWART, SUGARCANE and LILYPAD
@@ -799,7 +795,6 @@ better-bone-meal:
   # tweakin.jumpyboats.use: permission to make boats jump
 
 jumpy-boats:
-  enabled: false
   check-permissions: false
   black-list-worlds: []
   # how high boat should jump (change at your own risk)
@@ -848,7 +843,7 @@ recyclable-wax:
 # check out mini-blocks.yml(appears in plugins/Tweakin folder when this tweak is enabled) to edit the texture,display,output count and ingredient of each block
 # MAY REQUIRE SERVER RESTART AFTER MAKING CHANGES IN THE mini-blocks.yml.
 mini-blocks:
-  enabled: false
+  enabled: true
 
 
 # REQUIRES PaperMC or its fork as server software
@@ -864,7 +859,7 @@ cauldron-mud:
 # Permissions:
   # tweakin.blockalwaysdrops.use: permission to use this tweak
 block-always-drops:
-  enabled: false
+  enabled: true
   black-list-worlds: []
   check-permissions: false
   # list of blocks that will always drop when broken
@@ -885,7 +880,7 @@ block-always-drops:
 # Permissions:
   # tweakin.wanderingtrader.message: only the players with this permission will receive the announcement message
 wandering-trader-announcement:
-  enabled: false
+  enabled: true
   black-list-worlds: []
   check-permissions: false
   # the distance at which player needs to be from the wandering trader to get the announcement message
