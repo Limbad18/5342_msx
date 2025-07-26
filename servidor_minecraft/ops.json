@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "uuid": "0d11f731-42e4-4957-aae7-3633a8b96653",
+    "name": "CBBox",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4c2ffda1-f370-49af-8353-fde1016f204f",
+    "name": "Ygrad",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "3a38df11-d7a9-3fd2-836b-276b02cc33d1",
+    "name": "Ygrad",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
