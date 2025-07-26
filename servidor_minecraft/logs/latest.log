@@ -277,3 +277,276 @@
 [09:24:54] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
 [09:24:54] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
 [09:26:48] [Server thread/INFO]: Ygrad has completed the challenge [It Spreads]
+[09:32:00] [Server thread/INFO]: Ygrad issued server command: /tp CBBox
+[09:32:00] [Server thread/INFO]: [Ygrad: Teleported Ygrad to CBBox]
+[09:34:33] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[09:34:33] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[09:35:38] [Server thread/INFO]: Ygrad issued server command: /tp CBBox
+[09:35:38] [Server thread/INFO]: [Ygrad: Teleported Ygrad to CBBox]
+[09:37:19] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[09:37:19] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[09:39:23] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[09:39:23] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[09:39:54] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[09:39:54] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[09:40:29] [Server thread/INFO]: Ygrad was slain by Zombie
+[09:40:31] [Server thread/INFO]: CBBox has completed the challenge [It Spreads]
+[09:40:41] [Server thread/INFO]: CBBox issued server command: /tp Ygrad
+[09:40:41] [Server thread/INFO]: [CBBox: Teleported CBBox to Ygrad]
+[09:41:56] [Server thread/INFO]: CBBox lost connection: Disconnected
+[09:41:56] [Server thread/INFO]: CBBox left the game
+[09:42:18] [Server thread/INFO]: Ygrad lost connection: Disconnected
+[09:42:18] [Server thread/INFO]: Ygrad left the game
+[09:47:57] [User Authenticator #2/INFO]: UUID of player Ygrad is 4c2ffda1-f370-49af-8353-fde1016f204f
+[09:47:58] [Server thread/INFO]: Ygrad joined the game
+[09:47:58] [Server thread/INFO]: Ygrad[/127.162.152.220:38699] logged in with entity id 53613 at ([world]-3727.6539798746176, 64.0, 781.6313508420521)
+[09:48:01] [Server thread/INFO]: [Ygrad: Set own game mode to Creative Mode]
+[09:48:04] [Server thread/INFO]: Ygrad issued server command: /plugins
+[09:48:17] [Server thread/INFO]: Ygrad issued server command: /mv create
+[09:48:42] [Server thread/INFO]: Ygrad issued server command: /mv create Builds normal
+[09:48:52] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.8-6-782ce95 (MC: 1.21.8) ---
+[09:48:52] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[09:48:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[09:48:52] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[09:48:52] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
+[09:48:52] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( 15,24) in 'Builds']
+[09:48:52] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=Builds, chunkX=15, chunkZ=24, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:empty}, currentGenStatus=minecraft:empty, requestedGenStatus=minecraft:full, generationTask=ChunkProgressionTask{class: ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask, for world: Builds, chunk: (15,24), hashcode: 429785075, priority: COMPLETING, status: minecraft:structure_starts, scheduled: true}, generationTaskStatus=minecraft:structure_starts, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=null, effective_priority=BLOCKING, oldTicketLevel=33, currentTicketLevel=33, totalNeighboursUsingThisChunk=1, fullNeighbourChunksLoadedBitset=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
+[09:48:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[09:48:52] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[09:48:52] [Paper Watchdog Thread/ERROR]: 	PID: 47 | Suspended: false | Native: false | State: TIMED_WAITING
+[09:48:52] [Paper Watchdog Thread/ERROR]: 	Stack:
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:150)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:140)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.managedBlock(ServerChunkCache.java:795)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.syncLoad(ServerChunkCache.java:121)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunkFallback(ServerChunkCache.java:155)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:326)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:1006)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.PlayerRespawnLogic.getOverworldRespawnPos(PlayerRespawnLogic.java:18)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.PlayerRespawnLogic.getSpawnPosInChunk(PlayerRespawnLogic.java:53)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.setInitialSpawn(MinecraftServer.java:823)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:767)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1407)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		org.bukkit.Bukkit.createWorld(Bukkit.java:841)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		org.bukkit.WorldCreator.createWorld(WorldCreator.java:526)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:756)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x00007a8fb5800248.apply(Unknown Source)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:754)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x00007a8fb5dd9440.apply(Unknown Source)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.doCreateWorld(WorldManager.java:262)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x00007a8fb5dd8fb0.apply(Unknown Source)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.createWorld(WorldManager.java:233)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.commands.CreateCommand.onCreateCommand(CreateCommand.java:80)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.invoke.LambdaForm$DMH/0x00007a8fb5934000.invokeVirtual(LambdaForm$DMH)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.invoke.LambdaForm$MH/0x00007a8fb5814000.invoke(LambdaForm$MH)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:157)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007a8fb5c62ee0.execute(Unknown Source)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:345)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2313)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2286)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007a8fb5c6e288.run(Unknown Source)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007a8fb4efdc50.run(Unknown Source)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+[09:48:52] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+[09:48:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[09:48:52] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[09:48:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[09:48:55] [Server thread/INFO]: Preparing start region for dimension minecraft:builds
+[09:48:55] [Server thread/INFO]: Preparing spawn area: 0%
+[09:48:55] [Server thread/INFO]: Preparing spawn area: 2%
+[09:48:56] [Server thread/INFO]: Preparing spawn area: 2%
+[09:48:56] [Server thread/INFO]: Preparing spawn area: 2%
+[09:48:57] [Server thread/INFO]: Preparing spawn area: 2%
+[09:48:57] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.8-6-782ce95 (MC: 1.21.8) ---
+[09:48:57] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[09:48:57] [Paper Watchdog Thread/ERROR]: ------------------------------
+[09:48:57] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[09:48:57] [Paper Watchdog Thread/ERROR]: ------------------------------
+[09:48:57] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[09:48:57] [Paper Watchdog Thread/ERROR]: 	PID: 47 | Suspended: false | Native: false | State: TIMED_WAITING
+[09:48:57] [Paper Watchdog Thread/ERROR]: 	Stack:
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1361)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.prepareLevels(MinecraftServer.java:876)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1412)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		org.bukkit.Bukkit.createWorld(Bukkit.java:841)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		org.bukkit.WorldCreator.createWorld(WorldCreator.java:526)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:756)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x00007a8fb5800248.apply(Unknown Source)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:754)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x00007a8fb5dd9440.apply(Unknown Source)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.doCreateWorld(WorldManager.java:262)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x00007a8fb5dd8fb0.apply(Unknown Source)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.createWorld(WorldManager.java:233)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.commands.CreateCommand.onCreateCommand(CreateCommand.java:80)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.invoke.LambdaForm$DMH/0x00007a8fb5934000.invokeVirtual(LambdaForm$DMH)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.invoke.LambdaForm$MH/0x00007a8fb5814000.invoke(LambdaForm$MH)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:157)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007a8fb5c62ee0.execute(Unknown Source)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:345)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2313)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2286)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007a8fb5c6e288.run(Unknown Source)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007a8fb4efdc50.run(Unknown Source)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+[09:48:57] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+[09:48:57] [Paper Watchdog Thread/ERROR]: ------------------------------
+[09:48:57] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[09:48:57] [Paper Watchdog Thread/ERROR]: ------------------------------
+[09:48:57] [Server thread/INFO]: Preparing spawn area: 18%
+[09:48:58] [Server thread/INFO]: Preparing spawn area: 18%
+[09:48:58] [Server thread/INFO]: Preparing spawn area: 18%
+[09:48:59] [Server thread/INFO]: Preparing spawn area: 18%
+[09:48:59] [Server thread/INFO]: Preparing spawn area: 44%
+[09:49:00] [Server thread/INFO]: Preparing spawn area: 51%
+[09:49:00] [Server thread/INFO]: Preparing spawn area: 51%
+[09:49:01] [Server thread/INFO]: Preparing spawn area: 57%
+[09:49:01] [Server thread/INFO]: Preparing spawn area: 57%
+[09:49:02] [Server thread/INFO]: Preparing spawn area: 57%
+[09:49:02] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.8-6-782ce95 (MC: 1.21.8) ---
+[09:49:02] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[09:49:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[09:49:02] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[09:49:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[09:49:02] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[09:49:02] [Paper Watchdog Thread/ERROR]: 	PID: 47 | Suspended: false | Native: false | State: TIMED_WAITING
+[09:49:02] [Paper Watchdog Thread/ERROR]: 	Stack:
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1361)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.prepareLevels(MinecraftServer.java:876)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1412)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		org.bukkit.Bukkit.createWorld(Bukkit.java:841)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		org.bukkit.WorldCreator.createWorld(WorldCreator.java:526)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:756)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x00007a8fb5800248.apply(Unknown Source)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:754)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x00007a8fb5dd9440.apply(Unknown Source)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.doCreateWorld(WorldManager.java:262)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x00007a8fb5dd8fb0.apply(Unknown Source)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.createWorld(WorldManager.java:233)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.commands.CreateCommand.onCreateCommand(CreateCommand.java:80)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.invoke.LambdaForm$DMH/0x00007a8fb5934000.invokeVirtual(LambdaForm$DMH)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.invoke.LambdaForm$MH/0x00007a8fb5814000.invoke(LambdaForm$MH)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:157)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007a8fb5c62ee0.execute(Unknown Source)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:345)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2313)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2286)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007a8fb5c6e288.run(Unknown Source)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007a8fb4efdc50.run(Unknown Source)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+[09:49:02] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+[09:49:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[09:49:02] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[09:49:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[09:49:02] [Server thread/INFO]: Preparing spawn area: 69%
+[09:49:02] [Server thread/INFO]: Time elapsed: 7539 ms
+[09:49:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7560ms or 151 ticks behind
+[09:49:43] [Server thread/INFO]: Ygrad issued server command: /mvtp Builds
+[09:50:00] [Server thread/INFO]: Ygrad issued server command: /mvtp ll:world
